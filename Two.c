@@ -36,5 +36,9 @@ int _printf(const char *format, ...)
     }
 
     va_end(args);
+
+    putchar('\n');
+    pr++;
+
     return (pr);
 }
